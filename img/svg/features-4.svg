@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="55px" viewBox="0 0 57 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>22AEB478-E899-4021-AFBC-EEE31F8F1C71</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Piario-landing" transform="translate(-71.000000, -4112.000000)">
+            <g id="features" transform="translate(72.000000, 3696.000000)">
+                <g id="statistic" transform="translate(0.000000, 416.000000)">
+                    <g id="ico-statistic">
+                        <rect id="bg" fill="#FF934F" opacity="0.200000003" x="24" y="0" width="32" height="32" rx="16"></rect>
+                        <g id="ico" transform="translate(0.000000, 13.000000)" stroke="#FF934F" stroke-width="2">
+                            <polyline id="Rectangle" points="44 18 44 41 3 41 3 36.2647059"></polyline>
+                            <polyline id="Rectangle" points="3 23 3.21382008 0 44 0 44 4.18181818"></polyline>
+                            <line x1="31.6153846" y1="22" x2="40.9487179" y2="13" id="Path"></line>
+                            <line x1="18.2197802" y1="18.2884615" x2="27.5054945" y2="22.6634615" id="Path"></line>
+                            <line x1="4.49450549" y1="27.6153846" x2="13.7802198" y2="18.3296703" id="Path"></line>
+                            <circle id="Oval" cx="3" cy="30" r="3"></circle>
+                            <circle id="Oval" cx="16" cy="16" r="3"></circle>
+                            <circle id="Oval" cx="30" cy="25" r="3"></circle>
+                            <circle id="Oval" cx="43" cy="11" r="3"></circle>
+                            <line x1="22" y1="33.5" x2="17" y2="33.5" id="Path"></line>
+                            <line x1="30" y1="33.5" x2="25" y2="33.5" id="Path"></line>
+                            <line x1="39" y1="33.5" x2="34" y2="33.5" id="Path"></line>
+                            <line x1="22" y1="37.5" x2="17" y2="37.5" id="Path"></line>
+                            <line x1="30" y1="37.5" x2="25" y2="37.5" id="Path"></line>
+                            <line x1="39" y1="37.5" x2="34" y2="37.5" id="Path"></line>
+                            <line x1="14" y1="4.5" x2="6" y2="4.5" id="Path"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

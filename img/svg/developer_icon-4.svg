@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="57px" viewBox="0 0 57 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ED5640A9-FB9A-4AFE-B199-CA87001A32FB</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Piario-landing" transform="translate(-968.000000, -5584.000000)">
+            <g id="more-features" transform="translate(0.000000, 4944.000000)">
+                <g id="templates" transform="translate(968.000000, 640.000000)">
+                    <g id="ico-template" transform="translate(1.000000, 0.000000)">
+                        <path d="M56,16 C56,24.8384 48.8384,32 40,32 C31.1616,32 24,24.8384 24,16 C24,7.1616 31.1616,0 40,0 C48.8384,0 56,7.1616 56,16" id="Fill-424" fill="#9B51E0" opacity="0.200000003"></path>
+                        <g id="ico" transform="translate(0.000000, 12.000000)" stroke="#9B51E0" stroke-width="2">
+                            <polygon id="Stroke-2744" points="8 44 44 44 44 8 8 8"></polygon>
+                            <polyline id="Stroke-2744" points="40 5.93220339 40 4 4 4 4 42 5.92857143 42"></polyline>
+                            <polyline id="Stroke-2744" points="36 1.93220339 36 0 0 0 0 38 1.92857143 38"></polyline>
+                            <path d="M10,27.875 L16.9259259,21 L27,31 M22,26 L33.137931,15 L41,22.7647059" id="Stroke-2747"></path>
+                            <path d="M24,14 C24,15.6572 22.656,17 21,17 C19.344,17 18,15.6572 18,14 C18,12.3428 19.344,11 21,11 C22.656,11 24,12.3428 24,14" id="Stroke-2748"></path>
+                            <path d="M18,34.5 L10,34.5 L18,34.5 Z" id="Path"></path>
+                            <path d="M35,37.5 L10,37.5 L35,37.5 Z" id="Path"></path>
+                            <path d="M42,40.5 L10,40.5 L42,40.5 Z" id="Path-Copy-2"></path>
+                            <path d="M8,31.5 L44,31.5" id="Stroke-2749"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

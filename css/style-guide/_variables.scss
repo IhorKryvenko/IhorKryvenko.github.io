@@ -1,0 +1,19 @@
+$dark-bg: #1d1f22;
+$light-bg: #FFFFFE;
+$light-green: #58D8A4;
+$orange: #FF934F;
+$violet: #9B51E0;
+$gray: #8A8F98;
+
+//QUERIES
+
+$phoneWidth: 768px;
+$tabletWidth: 1024px;
+$fullWidth: 1440px;
+$fullHDWidth: 1920px;
+
+$phone: "max-width: " + ($phoneWidth - 1);
+$tablet: "max-width: " + ($tabletWidth - 1);
+$full: "max-width: " + ($fullWidth - 1);
+$fullHD: "max-width: " + ($fullHDWidth - 1);
+

@@ -1,0 +1,53 @@
+
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body {
+    color: $gray;
+    background: $dark-bg;
+  }
+  body.light-theme {
+    color: #222;
+    background-color: $light-bg;
+    & h2, .h1 {
+      color: #222;
+      }
+    & h2, .h2 {
+      color: #222;
+      }
+    & h3, .h3 {
+      color: #222;
+      }
+    & .head__item a {
+      color: #222;
+    }
+    & .head__pic-logo-2 {
+      fill: #222;
+    }
+    & .intro input {
+      background-color: #f3f3f3;
+    }
+    & .features__right-desc {
+      color: #222;
+    }
+    & .impact__wrap {
+      background-color: #f3f3f3;
+    }
+    & .development {
+      background: linear-gradient(180deg, #ffffff 0%, #f3f3f3 8.98%, #f3f3f3 91.23%, #ffffff 100%);
+    }
+    & .pricing__tariff {
+      background-color: #f3f3f3;
+    }
+    & .pricing__tariff-list {
+      color: #222;
+    }
+    & .subscription {
+      background-color: #f3f3f3;
+    }
+    & .footer__pic-logo-2 {
+      fill: #222;
+    }
+  }
+}
+

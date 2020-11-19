@@ -1,0 +1,160 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  @media ($tablet) {
+    
+  }
+  @media ($phone) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+h1, .h1 {
+  color: #DFE7F1;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 56px;
+  margin-bottom: 52px;
+
+  @media ($fullHD) {
+    
+  }
+  @media ($full) {
+
+  }
+  @media ($tablet) {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  @media ($phone) {
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 26px;
+  }
+}
+
+h2, .h2 {
+  color: #DFE7F1;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 56px;
+  margin-bottom: 52px;
+
+  @media ($fullHD) {
+
+  }
+
+  @media ($full) {
+
+  }
+
+  @media ($tablet) {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  @media ($phone){
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 26px;
+  }
+}
+
+h3, .h3 {
+  color: #DFE7F1;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  line-height: 32px;
+
+  @media ($fullHD) {
+
+  }
+
+  @media ($full) {
+    
+  }
+
+  @media ($tablet) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  @media ($phone){
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+h4, .h4 {
+  color: #DFE7F1;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  line-height: 32px;
+  margin: 32px 0 0 0;
+
+  @media ($fullHD) {
+
+  }
+
+  @media ($full) {
+    
+  }
+
+  @media ($tablet) {
+    font-size: 32px;
+    line-height: 28px;
+  }
+
+  @media ($phone){
+    font-size: 32px;
+    line-height: 26px;
+  }
+}
+
+.decoration-text {
+  display: block;
+  font-family: "Reenie Beanie";
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 56px;
+  @media ($tablet) {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  @media ($phone) {
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+
+.text-lg {
+  color: #8A8F98;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 32px;
+  @media ($tablet) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  @media ($phone) {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+/* Terms page */
+
+
+

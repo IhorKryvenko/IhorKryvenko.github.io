@@ -1,0 +1,9 @@
+@mixin color-dec ($color) {
+  .decoration-text, li::marker, span{
+    color: $color;
+  }
+  button {
+    background-color: $color;
+  }
+
+}
