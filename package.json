@@ -1,0 +1,14 @@
+{
+  "name": "piario-gulp",
+  "version": "1.0.0",
+  "description": "Сборка gulp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IK",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

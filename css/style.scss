@@ -92,6 +92,26 @@ img {
     }
 }
 
+.fixed-btn {
+    @extend %btn;
+    position: fixed;
+    top: 16px;
+    right: 30px;
+    opacity: 0;
+    transition: all .1s ease-in-out;
+}
+
+.back-top {
+    display: none;
+    i {
+        position: fixed;
+        bottom: 20px;
+        right: 50px;
+        color: $gray;
+        font-size: 50px;
+    }
+}
+
 .intro {
     padding: 48px 0 94px;
     @media ($phone) {
@@ -143,7 +163,7 @@ img {
 }
 
 .benefits {
-    padding: 94px 0;
+    padding: 144px 0;
     @media ($phone) {
         padding: 48px 0;
     }
@@ -152,7 +172,7 @@ img {
         grid-template-columns: 512px / 1296px * 100% 679px / 1296px * 100%;
         column-gap: 105px/1296px*100%;
         align-items: center;
-        padding-bottom: 144px;
+        padding-bottom: 192px;
         @media ($tablet) {
             display: flex;
             flex-direction: column;
@@ -178,7 +198,7 @@ img {
     &__group:last-child {
         padding-bottom:0;
         .decoration-text {
-            color: $light-green;
+            color: $light-blue;
         }
     }
     &__pic {
@@ -194,10 +214,11 @@ img {
     }
 }
 
+
 .features {
     &__wrap {
         display: flex;
-        padding: 60px 0;
+        padding: 96px 0;
         @media ($tablet) {
             flex-direction: column;
         }

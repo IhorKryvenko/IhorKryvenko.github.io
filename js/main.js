@@ -38,7 +38,7 @@
     scrollTo();
 }());
 
-//toggle dark-mode
+//toggle dark-mode / light-mode
 const btn = document.querySelector(".switch");
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
@@ -65,5 +65,38 @@ btn.addEventListener("click", function () {
 });
 
 
+// When scrolling, we run the function
+let addbtn = document.querySelector('.fixed-btn')
+//
+function magic() {
+    if (window.pageYOffset > 20) {
+    addbtn.style.opacity = '1'
+    } else { addbtn.style.opacity = '0' }
+}
+//
+addbtn.onclick = function () {
+	window.scrollTo(0,0)
+}
+
+window.onscroll = magic
 
 
+
+
+
+
+
+$(function(){
+	$(window).scroll(function(){
+		if($(window).scrollTop() > 100) {
+			$('#back-top').show();
+		} else {
+			$('#back-top').hide();
+		}
+	});
+ 
+	$('#back-top').click(function(){
+		$('html, body').animate({scrollTop: 0}, 800);
+		return false;
+	});
+});

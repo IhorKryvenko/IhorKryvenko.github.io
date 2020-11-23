@@ -198,7 +198,7 @@ h4, .h4 {
   color: #8A8F98;
   font-family: Roboto;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0;
   line-height: 32px;
 }
@@ -218,7 +218,7 @@ h4, .h4 {
 }
 
 /* Terms page */
-.head__btn, .intro__btn, .impact__btn, .pricing__tariff:hover button, .pricing__tariff-title button, .subscription__btn {
+.head__btn, .fixed-btn, .intro__btn, .impact__btn, .pricing__tariff:hover button, .pricing__tariff-title button, .subscription__btn {
   height: 48px;
   border-radius: 24px;
   border: none;
@@ -247,13 +247,13 @@ h4, .h4 {
 }
 
 @media (max-width: 1023px) {
-  .head__btn, .intro__btn, .impact__btn, .pricing__tariff:hover button, .pricing__tariff-title button, .subscription__btn {
+  .head__btn, .fixed-btn, .intro__btn, .impact__btn, .pricing__tariff:hover button, .pricing__tariff-title button, .subscription__btn {
     padding: 0 20px;
   }
 }
 
 @media (max-width: 767px) {
-  .head__btn, .intro__btn, .impact__btn, .pricing__tariff:hover button, .pricing__tariff-title button, .subscription__btn {
+  .head__btn, .fixed-btn, .intro__btn, .impact__btn, .pricing__tariff:hover button, .pricing__tariff-title button, .subscription__btn {
     height: 38;
     padding: 0 20px;
     font-size: 12px;
@@ -610,48 +610,51 @@ h4, .h4 {
     background: #1d1f22;
   }
   body.light-theme {
-    color: #222;
-    background-color: #FFFFFE;
+    color: #40466e;
+    background-color: #F8FAFF;
   }
   body.light-theme h2, body.light-theme .h1 {
-    color: #222;
+    color: #40466e;
   }
   body.light-theme h2, body.light-theme .h2 {
-    color: #222;
+    color: #40466e;
   }
   body.light-theme h3, body.light-theme .h3 {
-    color: #222;
+    color: #40466e;
   }
   body.light-theme .head__item a {
-    color: #222;
+    color: #40466e;
   }
   body.light-theme .head__pic-logo-2 {
-    fill: #222;
+    fill: #40466e;
   }
   body.light-theme .intro input {
-    background-color: #f3f3f3;
+    background-color: #ffffff;
   }
   body.light-theme .features__right-desc {
-    color: #222;
+    color: #40466e;
   }
   body.light-theme .impact__wrap {
-    background-color: #f3f3f3;
+    background-color: #ffffff;
   }
   body.light-theme .development {
-    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(8.98%, #f3f3f3), color-stop(91.23%, #f3f3f3), to(#ffffff));
-    background: linear-gradient(180deg, #ffffff 0%, #f3f3f3 8.98%, #f3f3f3 91.23%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#F8FAFF), color-stop(8.98%, #ffffff), color-stop(91.23%, #ffffff), to(#F8FAFF));
+    background: linear-gradient(180deg, #F8FAFF 0%, #ffffff 8.98%, #ffffff 91.23%, #F8FAFF 100%);
   }
   body.light-theme .pricing__tariff {
-    background-color: #f3f3f3;
+    background-color: #ffffff;
   }
   body.light-theme .pricing__tariff-list {
-    color: #222;
+    color: #40466e;
   }
   body.light-theme .subscription {
-    background-color: #f3f3f3;
+    background-color: #40466e;
+  }
+  body.light-theme .subscription .h2 {
+    color: #F8FAFF;
   }
   body.light-theme .footer__pic-logo-2 {
-    fill: #222;
+    fill: #40466e;
   }
 }
 
@@ -785,6 +788,27 @@ img {
   text-transform: uppercase;
 }
 
+.fixed-btn {
+  position: fixed;
+  top: 16px;
+  right: 30px;
+  opacity: 0;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+.back-top {
+  display: none;
+}
+
+.back-top i {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  color: #8A8F98;
+  font-size: 50px;
+}
+
 .intro {
   padding: 48px 0 94px;
 }
@@ -869,7 +893,7 @@ img {
 }
 
 .benefits {
-  padding: 94px 0;
+  padding: 144px 0;
 }
 
 @media (max-width: 767px) {
@@ -888,7 +912,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 144px;
+  padding-bottom: 192px;
 }
 
 @media (max-width: 1023px) {
@@ -929,7 +953,7 @@ img {
 }
 
 .benefits__group:last-child .decoration-text {
-  color: #58D8A4;
+  color: #33C6C7;
 }
 
 @media (max-width: 767px) {
@@ -951,7 +975,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 60px 0;
+  padding: 96px 0;
 }
 
 @media (max-width: 1023px) {

@@ -7,46 +7,49 @@
     background: $dark-bg;
   }
   body.light-theme {
-    color: #222;
+    color: $pale-black;
     background-color: $light-bg;
     & h2, .h1 {
-      color: #222;
+      color: $pale-black;
       }
     & h2, .h2 {
-      color: #222;
+      color: $pale-black;
       }
     & h3, .h3 {
-      color: #222;
+      color: $pale-black;
       }
     & .head__item a {
-      color: #222;
+      color: $pale-black;
     }
     & .head__pic-logo-2 {
-      fill: #222;
+      fill: $pale-black;
     }
     & .intro input {
-      background-color: #f3f3f3;
+      background-color: $white;
     }
     & .features__right-desc {
-      color: #222;
+      color: $pale-black;
     }
     & .impact__wrap {
-      background-color: #f3f3f3;
+      background-color: $white;
     }
     & .development {
-      background: linear-gradient(180deg, #ffffff 0%, #f3f3f3 8.98%, #f3f3f3 91.23%, #ffffff 100%);
+      background: linear-gradient(180deg, #F8FAFF 0%, #ffffff 8.98%, #ffffff 91.23%, #F8FAFF 100%);
     }
     & .pricing__tariff {
-      background-color: #f3f3f3;
+      background-color: $white;
     }
     & .pricing__tariff-list {
-      color: #222;
+      color: $pale-black;
     }
     & .subscription {
-      background-color: #f3f3f3;
+      background-color: $pale-black;
+      .h2 {
+        color: $light-bg;
+      }
     }
     & .footer__pic-logo-2 {
-      fill: #222;
+      fill: $pale-black;
     }
   }
 }
