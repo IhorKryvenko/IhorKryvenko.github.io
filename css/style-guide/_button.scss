@@ -3,7 +3,7 @@
     border-radius: 24px;
     border: none;
     background-color: $light-green;
-    box-shadow: 0 2px 8px 0 rgba(88, 216, 164, 0.2);
+    box-shadow: 0 2px 8px 0 rgba(141, 141, 141, 0.2);
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 500;
@@ -17,6 +17,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    &:hover {
+        opacity: .9;
+    }
     @media ($tablet) {
         padding: 0 20px;
     }

@@ -10,7 +10,6 @@
 @import './style-guide/dark-mode';
 
 
-
 img {
     display: block;
 }
@@ -73,11 +72,12 @@ img {
     }
     &__btn {
         @extend %btn;
-        margin-left: 24px;;
+        margin-left: 24px;
         @media ($phone) {
             margin-left: 12px;
         }
     }
+    
     &__item {
         list-style: none;
     }
@@ -89,6 +89,7 @@ img {
         letter-spacing: 1px;
         line-height: 16px;
         text-transform: uppercase;
+        text-decoration: none;
     }
 }
 
@@ -99,6 +100,14 @@ img {
     right: 30px;
     opacity: 0;
     transition: all .1s ease-in-out;
+    z-index: 1000;
+    &:hover {
+        background-color: rgba(82, 197, 150, 0.9);
+    }
+    @media ($phone) {
+        top: 5px;
+        right: 5px;
+    }
 }
 
 .back-top {
@@ -109,6 +118,14 @@ img {
         right: 50px;
         color: $gray;
         font-size: 50px;
+        z-index: 1000;
+        &:hover {
+            color: rgba(138, 143, 152, 0.9);
+        }
+        @media ($phone) {
+            bottom: 0;
+            right: 5px;
+        }
     }
 }
 
@@ -421,7 +438,7 @@ img {
         margin: 0 50px;
         transition: 0.3s;
         @media ($phone) {
-            margin: 0 20px;
+            margin: 0 10px;
         }
         &::before {
             content: '';
@@ -474,6 +491,7 @@ img {
         }
         @media ($tablet) {
             padding: 10px;
+            margin: 10px 0;
         }
         &:hover{
             button {
@@ -646,6 +664,7 @@ img {
     }
     a {
         color: $gray;
+        text-decoration: none;
     }
 }
 

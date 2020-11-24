@@ -51,12 +51,4 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-a, input, textarea, button, select {
-  text-decoration: none;
-}
-
-a:hover, a:focus, input:hover, input:focus, textarea:hover, textarea:focus, button:hover, button:focus, select:hover, select:focus {
-  outline: none;
-}
 /*# sourceMappingURL=reset.css.map */
