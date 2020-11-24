@@ -294,7 +294,7 @@ h4, .h4 {
 
 @media (max-width: 767px) {
   .input input {
-    height: 96px;
+    height: 106px;
     border-radius: 24px;
     padding: 16px 32px 60px;
   }
