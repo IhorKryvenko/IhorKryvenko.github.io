@@ -1,0 +1,117 @@
+@media (max-width: 1023px) {
+  .container {
+    max-width: 700px;
+    padding: 0 10px;
+  }
+  .head__list {
+    display: none;
+  }
+  .intro__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .intro__desc {
+    width: 100%;
+  }
+  .intro__form {
+    max-width: 100%;
+  }
+  .intro__btn {
+    padding: 0;
+  }
+  .benefits__group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .features__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .features__tools {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .features__right {
+    width: 50%;
+    text-align: center;
+    margin: 50px auto 0;
+  }
+  .features__right-pic {
+    margin: auto;
+  }
+  .impact__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .development__wrap {
+    display: block;
+    padding: 0;
+  }
+  .development__pic {
+    display: none;
+  }
+  .pricing__tariffs {
+    -webkit-column-gap: 36px;
+            column-gap: 36px;
+  }
+  .pricing__tariff {
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .pricing__tariff-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pricing__tariff-title button {
+    display: block;
+    margin-top: 20px;
+  }
+  .pricing__tariff-list {
+    font-size: 13px;
+    line-height: 26px;
+  }
+  .pricing__tariff .currency {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .pricing__tariff .price {
+    font-size: 38px;
+    line-height: 44px;
+  }
+  .pricing__tariff .period {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .subscription__wrap {
+    display: block;
+    text-align: center;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .subscription .h2 {
+    margin-bottom: 52px;
+  }
+}
+/*# sourceMappingURL=style_1024.css.map */

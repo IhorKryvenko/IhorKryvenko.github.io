@@ -1,0 +1,14 @@
+@media (max-width: 1439px) {
+  .container {
+    max-width: 960px;
+  }
+  .pricing__tariff {
+    padding: 20px;
+  }
+  .subscription__wrap {
+    max-width: 1000px;
+    -webkit-column-gap: 50px;
+            column-gap: 50px;
+  }
+}
+/*# sourceMappingURL=style_1440.css.map */

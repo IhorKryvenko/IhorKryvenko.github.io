@@ -1,0 +1,96 @@
+@media (max-width: 767px) {
+  .head {
+    padding-bottom: 24px;
+  }
+  .head__pic-PH {
+    display: none;
+  }
+  .head__pic-logo {
+    padding: 0;
+  }
+  .head__btn {
+    margin-left: 12px;
+  }
+  .fixed-btn {
+    top: 5px;
+    right: 5px;
+  }
+  .back-top i {
+    bottom: 0;
+    right: 5px;
+  }
+  .intro {
+    padding: 24px 0 48px;
+  }
+  .intro__desc {
+    width: 100%;
+  }
+  .intro__form {
+    margin-top: 26px;
+  }
+  .intro__pic {
+    margin-top: 26px;
+  }
+  .benefits {
+    padding: 48px 0;
+  }
+  .benefits__group {
+    padding-bottom: 74px;
+  }
+  .benefits__pic {
+    margin-top: 26px;
+  }
+  .features__wrap {
+    padding: 48px 0;
+  }
+  .features__tools {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -webkit-column-gap: 48px;
+            column-gap: 48px;
+    row-gap: 24px;
+  }
+  .features__right {
+    width: 100%;
+  }
+  .impact {
+    padding: 0;
+  }
+  .impact__wrap {
+    padding: 15px;
+  }
+  .development {
+    padding: 96px 0 48px;
+  }
+  .development__map {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .pricing {
+    padding: 48px 0;
+  }
+  .pricing__switch {
+    margin: 0 10px;
+  }
+  .pricing__tariffs {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .subscription {
+    padding: 48px 0;
+  }
+  .footer__wrap {
+    display: block;
+    text-align: center;
+  }
+  .footer__logo {
+    margin-bottom: 26px;
+  }
+  .footer__list {
+    display: block;
+  }
+  .footer__item {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=style_768.css.map */
