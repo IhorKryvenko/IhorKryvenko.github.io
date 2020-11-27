@@ -2,6 +2,9 @@
   .container {
     max-width: 960px;
   }
+  .head__list {
+    padding: 0;
+  }
   .pricing__tariff {
     padding: 20px;
   }
