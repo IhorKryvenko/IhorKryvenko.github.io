@@ -1,10 +1,9 @@
-@import 'reset';
+@import './reset';
 @import './style-guide/fonts';
 @import './style-guide/variables';
-
 @import './style-guide/text';
 @import './style-guide/button';
-@import './style-guide/mixin.scss/';
+@import './style-guide/mixin';
 @import './style-guide/input';
 @import './style-guide/switch';
 @import './style-guide/dark-mode';
@@ -57,7 +56,7 @@ img {
         @extend %btn;
         margin-left: 24px;
         background-color: $violet;
-    }    
+    }
     &__item {
         list-style: none;
     }
@@ -72,7 +71,6 @@ img {
         text-decoration: none;
     }
 }
-
 
 .fixed-btn {
     @extend %btn;
@@ -103,7 +101,6 @@ img {
     }
 }
 
-
 .intro {
     padding: 48px 0 94px;
     &__wrap {
@@ -132,7 +129,7 @@ img {
     &__pic {
         width: 100%;
         margin-top: 50px;
-    } 
+    }
 }
 
 .benefits {
@@ -152,12 +149,12 @@ img {
         .decoration-text {
             color: $orange;
         }
-    } 
+    }
     &__group:nth-child(2) {
         .decoration-text {
             color: $violet;
         }
-    } 
+    }
     &__group:last-child {
         padding-bottom:0;
         .decoration-text {
@@ -171,7 +168,6 @@ img {
         grid-row-start: -1;
     }
 }
-
 
 .features {
     &__wrap {

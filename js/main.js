@@ -38,13 +38,15 @@
 }());
 
 //toggle dark-mode / light-mode
+
+
 const btn = document.querySelector(".switch");
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
 const currentTheme = localStorage.getItem("theme");
-if (currentTheme == "dark") {
+if (currentTheme == "light") {
     document.body.classList.toggle("dark-theme");
-} else if (currentTheme == "light") {
+} else if (currentTheme == "dark") {
     document.body.classList.toggle("light-theme");
 }
 
@@ -52,13 +54,13 @@ btn.addEventListener("click", function () {
     if (prefersDarkScheme.matches) {
     document.body.classList.toggle("light-theme");
     var theme = document.body.classList.contains("light-theme")
-        ? "light"
-        : "dark";
+        ? "dark"
+        : "light";
     } else {
     document.body.classList.toggle("dark-theme");
     var theme = document.body.classList.contains("dark-theme")
-        ? "dark"
-        : "light";
+        ? "light"
+        : "dark";
     }
     localStorage.setItem("theme", theme);
 });
@@ -93,6 +95,12 @@ $(function(){
 });
 
 
+// localStorage for switcher
+const toggle = document.querySelector('.switch');
+const initialState = localStorage.getItem('toggleState') == 'true';
+toggle.checked = initialState;
 
-
+toggle.addEventListener('change', function() {
+localStorage.setItem('toggleState', toggle.checked);
+});
 
