@@ -1,6 +1,7 @@
 @media (prefers-color-scheme: dark) {
   /* defaults to dark theme */
   body {
+    transition: .7s;
     color: $gray;
     background: $dark-bg;
   }
